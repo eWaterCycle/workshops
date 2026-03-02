@@ -1,1 +1,0 @@
-# Amite River near Darlington, LA

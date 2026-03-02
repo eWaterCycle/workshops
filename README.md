@@ -1,32 +1,28 @@
-# eWaterCycle Projects
+# eWaterCycle Workshops
 
-This repository collect projects that showcase how eWaterCycle works, including student projects.
+This repository collects workshops that showcase how eWaterCycle works.
 
 The intended way to look at this repository is by using the [teachbook](https://www.ewatercycle.org/projects/main/intro.html).
 
-We have projects from different levels of education, including:
-- Bachelor of Science (BSc) projects
-- Master of Science (MSc) projects
-- PhD/PostDoc/Research projects
+We have workshops from all projects that we have worked/are working on, including:
+- Basic tutorials
+- Using the CARAVAN dataset
+- Workshops done in Africa for the SAFE4ALL project
+- Workshop of the eWaterCycle Climate Change Impact Analysis
+
 
 ## Tutorial Users
 
-For the tutorial, first go to the [teachbook](https://www.ewatercycle.org/projects/main/intro.html), then use the GitHub Logo on the top right ![launch](book/figures/jupyterHub_launch.png) and click on JupyterHub.
+For the tutorial, first go to the [teachbook](https://www.ewatercycle.org/workshops/main/intro.html), then use the GitHub Logo on the top right ![launch](book/figures/jupyterHub_launch.png) and click on JupyterHub.
 Go into folder: projects/book/tutorials_examples.
 This will take you to a server on the Surf Research Cloud, where we have eWaterCycle installed and all the required data on hand.
 
 
 ## Table of Contents
-- [Bachelor of Science (BSc) Projects](https://www.ewatercycle.org/projects/main/thesis_projects/BSc/overview_BSc_thesis_projects.html)
-- [Master of Science (MSc) Projects](https://www.ewatercycle.org/projects/main/thesis_projects/MSc/overview_MSc_thesis_projects.html)
-- [Research Projects](https://www.ewatercycle.org/projects/main/thesis_projects/Research/overview_research_projects.html)
-- [Tutorials](https://www.ewatercycle.org/projects/main/tutorials_examples/intro_tutorials_examples.html)
-- [References](https://www.ewatercycle.org/projects/main/references.html)
+- [Tutorials](https://www.ewatercycle.org/workshops/main/tutorials_examples/intro_tutorials_examples.html)
+- [Workshops](https://www.ewatercycle.org/workshops/main/intro.html)
+- [References](https://www.ewatercycle.org/workshops/main/references.html)
 
-Projects counter:
-- BSc projects: 6
-- MSc projects: 1
-- PhD/PostDoc/Research projects: 1
 
 ## eWaterCycle
 
