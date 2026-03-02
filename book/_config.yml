@@ -1,4 +1,4 @@
-title: eWaterCycle projects
+title: eWaterCycle Workshops
 author: Rolf Hut & Mark Melotto (Delft University of Technology) & the ever growing eWaterCycle team (Netherlands eScience Center, Delft University of Technology), built with <a href="https://teachbooks.tudelft.nl/">TeachBooks</a> and <a href="https://jupyterbook.org/">Jupyter Book</a>, <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="license noopener noreferrer"">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt=""></a> #add your own name here
 logo: figures/ewatercycle_logo.png #add your own logo here
 
@@ -20,7 +20,7 @@ sphinx:
       use_thebe_lite: true
       exclude_patterns: ["**/_*.yml", "**/*.md", "**/*.ipynb"]
     html_theme_options:
-      repository_url: "https://github.com/eWaterCycle/projects" #add your own repo URL here
+      repository_url: "https://github.com/eWaterCycle/workshops" #add your own repo URL here
       repository_branch: workshops
       path_to_docs: book
       use_repository_button: true
