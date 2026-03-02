@@ -14,7 +14,10 @@ The examples are:
 
 
 
+## SAFE4ALL
 
+If you attended an eWaterCycle workshop before, please go to folder 6_Africa.
+Otherwise, go to the folder of your country.
 
 
 

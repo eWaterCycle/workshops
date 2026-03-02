@@ -4,324 +4,70 @@ options:
  maxdepth: 1
   
 parts:
-  - caption: Thesis Projects
+ 
+  - caption: Tutorials
     chapters:
-      - file: thesis_projects/BSc/overview_BSc_thesis_projects.md
+    - file: tutorials_examples/intro_tutorials_examples.md
+      sections:
+      - file: tutorials_examples/1_HBV_Caravan_ERA5/example_model_run_HBV.ipynb
+      - file: tutorials_examples/2_HBV_PCRGlobWB_ERA5/example_model_run_pcrglobwb.ipynb
 
-        sections:
-          - file: thesis_projects/BSc/2023_Q4_GeltSteiger_CEG/BSc_GeltSteiger.md
-            sections:
-              - file: thesis_projects/BSc/2023_Q4_GeltSteiger_CEG/Report/0_voorwoord.md
-                title: Voorwoord
-              - file: thesis_projects/BSc/2023_Q4_GeltSteiger_CEG/Report/1_introductie.md
-                title: Introductie
-              - file: thesis_projects/BSc/2023_Q4_GeltSteiger_CEG/Report/2_theorie.md
-                title: Theorie
-              - file: thesis_projects/BSc/2023_Q4_GeltSteiger_CEG/Report/3_methodologie.md
-                title: Methodologie
-              - file: thesis_projects/BSc/2023_Q4_GeltSteiger_CEG/Report/4_resultaten.md
-                title: Resultaten
-              - file: thesis_projects/BSc/2023_Q4_GeltSteiger_CEG/Report/5_discussie.md
-                title: Discussie
-              - file: thesis_projects/BSc/2023_Q4_GeltSteiger_CEG/Report/6_conclusie.md
-                title: Conclusie
-              - file: thesis_projects/BSc/2023_Q4_GeltSteiger_CEG/Report/7_referenties.md
-                title: Bibliografie
-
-          - file: thesis_projects/BSc/2024_Q2_ElineMol_CEG/BSc_ElineMol.md
-            sections:
-              - file: thesis_projects/BSc/2024_Q2_ElineMol_CEG/Report/0_preface.md
-                title: Preface
-              - file: thesis_projects/BSc/2024_Q2_ElineMol_CEG/Report/1_introduction.md
-                title: Introduction
-              - file: thesis_projects/BSc/2024_Q2_ElineMol_CEG/Report/2_methodology.md
-                title: Methods
-              - file: thesis_projects/BSc/2024_Q2_ElineMol_CEG/Report/3_results.md
-                title: Results
-              - file: thesis_projects/BSc/2024_Q2_ElineMol_CEG/Report/4_discussion.md
-                title: Discussion
-              - file: thesis_projects/BSc/2024_Q2_ElineMol_CEG/Report/5_conclusion.md
-                title: Conclusion
-              - file: thesis_projects/BSc/2024_Q2_ElineMol_CEG/Report/6_references.md
-                title: References
-
-          - file: thesis_projects/BSc/2025_Q3_IschaHollemans_CEG/BSc_IschaHollemans.md
-            sections:
-              - file: thesis_projects/BSc/2025_Q3_IschaHollemans_CEG/Report/0_preface.md
-                title: Preface
-              - file: thesis_projects/BSc/2025_Q3_IschaHollemans_CEG/Report/00_acknowledgements.md
-                title: Acknowledgements
-              - file: thesis_projects/BSc/2025_Q3_IschaHollemans_CEG/Report/1_introduction.md
-                title: Introduction
-              - file: thesis_projects/BSc/2025_Q3_IschaHollemans_CEG/Report/2_literature_study.md
-                title: Literature Study
-              - file: thesis_projects/BSc/2025_Q3_IschaHollemans_CEG/Report/3_historical_droughts.md
-                title: Historical Droughts
-              - file: thesis_projects/BSc/2025_Q3_IschaHollemans_CEG/ischa/Drought_analyser.ipynb
-                title: Drought Analyser
-              - file: thesis_projects/BSc/2025_Q3_IschaHollemans_CEG/ischa/HBV_calibration.ipynb
-                title: Calibration
-              - file: thesis_projects/BSc/2025_Q3_IschaHollemans_CEG/Report/4_future_droughts.md
-                title: Future Droughts
-              - file: thesis_projects/BSc/2025_Q3_IschaHollemans_CEG/ischa/CMIP_Future_prediction.ipynb
-                title: CMIP Future Prediction
-              - file: thesis_projects/BSc/2025_Q3_IschaHollemans_CEG/Report/5_analysing_results.md
-                title: Analysing Results
-              - file: thesis_projects/BSc/2025_Q3_IschaHollemans_CEG/Report/6_discussion.md
-                title: Discussion
-              - file: thesis_projects/BSc/2025_Q3_IschaHollemans_CEG/Report/7_conclusion.md
-                title: Conclusion
-              - file: thesis_projects/BSc/2025_Q3_IschaHollemans_CEG/Report/8_bibliography.md
-                title: Bibliography
-
-
-          - file: thesis_projects/BSc/2025_Q3_ThirzaVanEsch_CEG/BSc_ThirzaVanEsch.md
-            sections:
-              - file: thesis_projects/BSc/2025_Q3_ThirzaVanEsch_CEG/Report/Preface.ipynb
-                title: Preface
-              - file: thesis_projects/BSc/2025_Q3_ThirzaVanEsch_CEG/Report/INTRODUCTION.ipynb
-                title: Introduction
-              - file: thesis_projects/BSc/2025_Q3_ThirzaVanEsch_CEG/Report/CHAPTER1.ipynb
-                title: Chapter 1
-              - file: thesis_projects/BSc/2025_Q3_ThirzaVanEsch_CEG/Report/CHAPTER2.ipynb
-                title: Chapter 2
-              - file: thesis_projects/BSc/2025_Q3_ThirzaVanEsch_CEG/Report/CHAPTER3OVER.ipynb
-                title: Chapter 3
-              - file: thesis_projects/BSc/2025_Q3_ThirzaVanEsch_CEG/Report/CHAPTER4.ipynb
-                title: Chapter 4
-              - file: thesis_projects/BSc/2025_Q3_ThirzaVanEsch_CEG/Report/Discussion.ipynb
-                title: Discussion
-              - file: thesis_projects/BSc/2025_Q3_ThirzaVanEsch_CEG/Report/Conclusion.ipynb
-                title: Conclusion
-              - file: thesis_projects/BSc/2025_Q3_ThirzaVanEsch_CEG/Report/9_REFERENCES.ipynb
-                title: References
-              - file: thesis_projects/BSc/2025_Q3_ThirzaVanEsch_CEG/Report/APPENDIX1.ipynb
-                title: Appendix 1
-              - file: thesis_projects/BSc/2025_Q3_ThirzaVanEsch_CEG/Report/APPENDIX2.ipynb
-                title: Appendix 2
-
-          - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/BSc_ElkeSchokking.md
-            sections:
-              - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/00_PREFACE.ipynb
-                title: Preface
-              - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/00_Acknowledgements.ipynb
-                title: Acknowledgements
-              - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/00_NOMENCLATURE.ipynb
-                title: Nomenclature
-              - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/1_INTRODUCTION_CH1_2_0.ipynb
-                title: Introduction
-              - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/2_Critical_Discharge.ipynb
-                title: Critical Discharge
-              - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/3_HBV_Calibration_Code_logNSE_EMD_Combined_Final.ipynb
-                title: The HBV Model
-              - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/4_Historic_CMIP_Final.ipynb
-                title: Historical Droughts
-              - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/5_Future_CMIP_Final.ipynb
-                title: Future Droughts
-              - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/6_Drought_analysis_Final.ipynb
-                title: Drought Analysis
-              - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/7_DISCUSSION.ipynb
-                title: Discussion
-              - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/8_CONCLUSION.ipynb
-                title: Conclusion
-              - file: thesis_projects/BSc/2025_Q4_ElkeSchokking_CEG/Report/9_REFERENCES.ipynb
-                title: References
-
-          - file: thesis_projects/BSc/2025_Q4_ZoeLucius_CEG/BSc_ZoeLucius.md
-            sections:
-              - file: thesis_projects/BSc/2025_Q4_ZoeLucius_CEG/Report/00_Preface.ipynb
-                title: Preface
-              - file: thesis_projects/BSc/2025_Q4_ZoeLucius_CEG/Report/1_Introduction.ipynb
-                title: Introduction
-              - file: thesis_projects/BSc/2025_Q4_ZoeLucius_CEG/Report/2_Literature_Study.ipynb
-                title: Literature Study
-              - file: thesis_projects/BSc/2025_Q4_ZoeLucius_CEG/Report/3_The_HBV_model.ipynb
-                title: The HBV Model
-              - file: thesis_projects/BSc/2025_Q4_ZoeLucius_CEG/Report/4_Drought_Detection_Method.ipynb
-                title: Drought Detection Method
-              - file: thesis_projects/BSc/2025_Q4_ZoeLucius_CEG/Report/5_Climate_Scenarios.ipynb
-                title: Climate Scenarios
-              - file: thesis_projects/BSc/2025_Q4_ZoeLucius_CEG/Report/6_Result_Analysis.ipynb
-                title: Result Analysis
-              - file: thesis_projects/BSc/2025_Q4_ZoeLucius_CEG/Report/7_Research_Extension_Scaling_Power_Demand_to_Population.ipynb
-                title: Research Extension; Scaling Power Demand to Population
-              - file: thesis_projects/BSc/2025_Q4_ZoeLucius_CEG/Report/8_Discussions.ipynb
-                title: Discussion
-              - file: thesis_projects/BSc/2025_Q4_ZoeLucius_CEG/Report/9_Conclusion_and_Recommendations.ipynb
-                title: Conclusion and Recommendations
-              - file: thesis_projects/BSc/2025_Q4_ZoeLucius_CEG/Report/References.ipynb
-                title: References
-
-
-      - file: thesis_projects/MSc/overview_MSc_thesis_projects.md
-
-  - caption: Research Projects
+  - caption: Workshops Caravan
     chapters:
-      - file: thesis_projects/Research/overview_research_projects.md
+    - file: tutorials_examples/7_Caravan/Workshop_Caravan.md
+      sections:
+      - file: tutorials_examples/7_Caravan/1a_HBV.ipynb
+      - file: tutorials_examples/7_Caravan/1b_ERA5.ipynb
+      - file: tutorials_examples/7_Caravan/2b_calibrate_HBV_SCE.ipynb
+      - file: tutorials_examples/7_Caravan/3a_CMIP.ipynb
+      - file: tutorials_examples/7_Caravan/3b_CMIP.ipynb
+      - file: tutorials_examples/7_Caravan/4_analysis.ipynb
 
-        sections:
-        - file: thesis_projects/Research/eWaterCyclePaper/Abstract_eWaterCycle.md
-          sections:
-            - file: thesis_projects/Research/eWaterCyclePaper/1_Introduction.md
-              title: introduction
-            - file: thesis_projects/Research/eWaterCyclePaper/2_eWaterCycle.md
-              title: eWaterCycle
-            - file: thesis_projects/Research/eWaterCyclePaper/3_TechnicalDesign.md
-              title: technical design
-            - file: thesis_projects/Research/eWaterCyclePaper/4_Use_cases.md
-              title: use cases
-            - file: thesis_projects/Research/eWaterCyclePaper/5_Conclusions.md
-              title: conclusion
-            - file: thesis_projects/Research/eWaterCyclePaper/6_References.md
-              title: references
-
-      - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/seamless.md
-        sections:
-          - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/second_results/hysets_02481510/region.md
-            sections:
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/second_results/hysets_02481510/step_0a_select_caravan_region_time_and_scenarios_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/second_results/hysets_02481510/step_0b_select_CMIP_forcing_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/second_results/hysets_02481510/step_1a_generate_historical_forcing_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/second_results/hysets_02481510/step_1b_generate_future_forcing_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/second_results/hysets_02481510/step_2a_calibrate_HBV_montecarlo_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/second_results/hysets_02481510/step_2b_calibrate_HBV_SCE_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/second_results/hysets_02481510/step_3a_model_run_historical_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/second_results/hysets_02481510/step_3b_model_run_future_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/second_results/hysets_02481510/step_4_analyse_executed.ipynb
-          - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/second_results/hysets_02492343/region.md
-            sections:
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/second_results/hysets_02492343/step_0a_select_caravan_region_time_and_scenarios_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/second_results/hysets_02492343/step_0b_select_CMIP_forcing_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/second_results/hysets_02492343/step_1a_generate_historical_forcing_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/second_results/hysets_02492343/step_1b_generate_future_forcing_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/second_results/hysets_02492343/step_2a_calibrate_HBV_montecarlo_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/second_results/hysets_02492343/step_2b_calibrate_HBV_SCE_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/second_results/hysets_02492343/step_3a_model_run_historical_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/second_results/hysets_02492343/step_3b_model_run_future_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/second_results/hysets_02492343/step_4_analyse_executed.ipynb
-          - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/second_results/hysets_07375500/region.md
-            sections:
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/second_results/hysets_07375500/step_0a_select_caravan_region_time_and_scenarios_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/second_results/hysets_07375500/step_0b_select_CMIP_forcing_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/second_results/hysets_07375500/step_1a_generate_historical_forcing_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/second_results/hysets_07375500/step_1b_generate_future_forcing_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/second_results/hysets_07375500/step_2a_calibrate_HBV_montecarlo_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/second_results/hysets_07375500/step_2b_calibrate_HBV_SCE_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/second_results/hysets_07375500/step_3a_model_run_historical_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/second_results/hysets_07375500/step_3b_model_run_future_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/second_results/hysets_07375500/step_4_analyse_executed.ipynb
-          - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/second_results/hysets_07377000/region.md
-            sections:
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/second_results/hysets_07377000/step_0a_select_caravan_region_time_and_scenarios_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/second_results/hysets_07377000/step_0b_select_CMIP_forcing_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/second_results/hysets_07377000/step_1a_generate_historical_forcing_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/second_results/hysets_07377000/step_1b_generate_future_forcing_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/second_results/hysets_07377000/step_2a_calibrate_HBV_montecarlo_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/second_results/hysets_07377000/step_2b_calibrate_HBV_SCE_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/second_results/hysets_07377000/step_3a_model_run_historical_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/second_results/hysets_07377000/step_3b_model_run_future_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/second_results/hysets_07377000/step_4_analyse_executed.ipynb
-
-          - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22001/region.md
-            sections:
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22001/step_0a_select_caravan_region_time_and_scenarios_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22001/step_0b_select_CMIP_forcing_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22001/step_1a_generate_historical_forcing_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22001/step_1b_generate_future_forcing_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22001/step_2a_calibrate_HBV_montecarlo_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22001/step_2b_calibrate_HBV_SCE_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22001/step_3a_model_run_historical_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22001/step_3b_model_run_future_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22001/step_4_analyse_executed.ipynb
-          - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22006/region.md
-            sections:
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22006/step_0a_select_caravan_region_time_and_scenarios_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22006/step_0b_select_CMIP_forcing_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22006/step_1a_generate_historical_forcing_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22006/step_1b_generate_future_forcing_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22006/step_2a_calibrate_HBV_montecarlo_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22006/step_2b_calibrate_HBV_SCE_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22006/step_3a_model_run_historical_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22006/step_3b_model_run_future_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22006/step_4_analyse_executed.ipynb
-          - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22007/region.md
-            sections:
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22007/step_0a_select_caravan_region_time_and_scenarios_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22007/step_0b_select_CMIP_forcing_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22007/step_1a_generate_historical_forcing_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22007/step_1b_generate_future_forcing_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22007/step_2a_calibrate_HBV_montecarlo_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22007/step_2b_calibrate_HBV_SCE_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22007/step_3a_model_run_historical_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22007/step_3b_model_run_future_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22007/step_4_analyse_executed.ipynb
-          - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22009/region.md
-            sections:
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22009/step_0a_select_caravan_region_time_and_scenarios_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22009/step_0b_select_CMIP_forcing_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22009/step_1a_generate_historical_forcing_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22009/step_1b_generate_future_forcing_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22009/step_2a_calibrate_HBV_montecarlo_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22009/step_2b_calibrate_HBV_SCE_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22009/step_3a_model_run_historical_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22009/step_3b_model_run_future_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_22009/step_4_analyse_executed.ipynb
-          - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_23004/region.md
-            sections:
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_23004/step_0a_select_caravan_region_time_and_scenarios_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_23004/step_0b_select_CMIP_forcing_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_23004/step_1a_generate_historical_forcing_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_23004/step_1b_generate_future_forcing_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_23004/step_2a_calibrate_HBV_montecarlo_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_23004/step_2b_calibrate_HBV_SCE_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_23004/step_3a_model_run_historical_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_23004/step_3b_model_run_future_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_23004/step_4_analyse_executed.ipynb
-          - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_23006/region.md
-            sections:
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_23006/step_0a_select_caravan_region_time_and_scenarios_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_23006/step_0b_select_CMIP_forcing_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_23006/step_1a_generate_historical_forcing_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_23006/step_1b_generate_future_forcing_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_23006/step_2a_calibrate_HBV_montecarlo_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_23006/step_2b_calibrate_HBV_SCE_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_23006/step_3a_model_run_historical_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_23006/step_3b_model_run_future_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_23006/step_4_analyse_executed.ipynb
-          - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_23008/region.md
-            sections:
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_23008/step_0a_select_caravan_region_time_and_scenarios_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_23008/step_0b_select_CMIP_forcing_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_23008/step_1a_generate_historical_forcing_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_23008/step_1b_generate_future_forcing_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_23008/step_2a_calibrate_HBV_montecarlo_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_23008/step_2b_calibrate_HBV_SCE_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_23008/step_3a_model_run_historical_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_23008/step_3b_model_run_future_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_23008/step_4_analyse_executed.ipynb
-          - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_76008/region.md
-            sections:
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_76008/step_0a_select_caravan_region_time_and_scenarios_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_76008/step_0b_select_CMIP_forcing_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_76008/step_1a_generate_historical_forcing_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_76008/step_1b_generate_future_forcing_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_76008/step_2a_calibrate_HBV_montecarlo_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_76008/step_2b_calibrate_HBV_SCE_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_76008/step_3a_model_run_historical_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_76008/step_3b_model_run_future_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_76008/step_4_analyse_executed.ipynb
-          - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_77003/region.md
-            sections:
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_77003/step_0a_select_caravan_region_time_and_scenarios_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_77003/step_0b_select_CMIP_forcing_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_77003/step_1a_generate_historical_forcing_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_77003/step_1b_generate_future_forcing_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_77003/step_2a_calibrate_HBV_montecarlo_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_77003/step_2b_calibrate_HBV_SCE_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_77003/step_3a_model_run_historical_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_77003/step_3b_model_run_future_executed.ipynb
-              - file: thesis_projects/Research/eWaterCycle-ClimateChangeImpact/first_results/camelsgb_77003/step_4_analyse_executed.ipynb
-
+    
+  - caption: Workshops SAFE4ALL part 1
+    chapters:
+    - file: tutorials_examples/3_Zimbabwe/1_HBV_Zimbabwe.ipynb
+      sections:
+      - file: tutorials_examples/3_Zimbabwe/2a_CMIP_Zimbabwe.ipynb
+      - file: tutorials_examples/3_Zimbabwe/2b_CMIP_Zimbabwe.ipynb
+      - file: tutorials_examples/3_Zimbabwe/2c_CMIP_Zimbabwe.ipynb
+    - file: tutorials_examples/4_Ghana/1_HBV_Ghana.ipynb
+      sections:
+      - file: tutorials_examples/4_Ghana/2a_CMIP_Ghana.ipynb
+      - file: tutorials_examples/4_Ghana/2b_CMIP_Ghana.ipynb
+      - file: tutorials_examples/4_Ghana/2c_CMIP_Ghana.ipynb
+    - file: tutorials_examples/5_Kenya/1_HBV_Kenya.ipynb
+      sections:
+      - file: tutorials_examples/5_Kenya/2a_CMIP_Kenya.ipynb
+      - file: tutorials_examples/5_Kenya/2b_CMIP_Kenya.ipynb
+      - file: tutorials_examples/5_Kenya/2c_CMIP_Kenya.ipynb
+        
+  - caption: Workshops SAFE4ALL part 2
+    chapters:
+    - file: tutorials_examples/6_Africa/Workshop_Africa.md
+      sections:
+      - file: tutorials_examples/6_Africa/1a_HBV_Africa.ipynb
+      - file: tutorials_examples/6_Africa/1b_ERA5_Africa.ipynb
+      - file: tutorials_examples/6_Africa/2a_calibrate_HBV_montecarlo.ipynb
+      - file: tutorials_examples/6_Africa/2b_calibrate_HBV_SCE.ipynb
+      - file: tutorials_examples/6_Africa/3a_CMIP_Africa.ipynb
+      - file: tutorials_examples/6_Africa/3b_CMIP_Africa.ipynb
+      - file: tutorials_examples/6_Africa/3c_CMIP_Africa.ipynb
+      - file: tutorials_examples/6_Africa/4_analysis_Africa.ipynb
+            
+  - caption: Climate Impact Analysis (first draft)
+    chapters:
+    - file: colloquium/README.md
+    sections:
+      - file: colloquium/step_0a_select_caravan_region_time_and_scenarios.ipynb
+      - file: colloquium/step_0b_select_CMIP_forcing.ipynb
+      - file: colloquium/step_1a_generate_historical_forcing.ipynb
+      - file: colloquium/step_1b_generate_future_forcing.ipynb
+      - file: colloquium/step_2a_calibrate_HBV_by_hand.ipynb
+      - file: colloquium/step_2b_calibrate_HBV_montecarlo.ipynb
+      - file: colloquium/step_3a_model_run_historical.ipynb
+      - file: colloquium/step_3b_model_run_future.ipynb
+      - file: colloquium/step_4_analyse.ipynb
 
   - caption: Credits
     chapters:
