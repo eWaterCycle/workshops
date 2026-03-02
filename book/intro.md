@@ -16,15 +16,13 @@ Go into folder: projects/book/tutorials_examples.
 This will take you to a server on the Surf Research Cloud, where we have eWaterCycle installed and all the required data on hand.
 
 ## Table of Contents
-- [Bachelor of Science (BSc) Projects](https://www.ewatercycle.org/projects/main/thesis_projects/BSc/overview_BSc_thesis_projects.html)
-- [Master of Science (MSc) Projects](https://www.ewatercycle.org/projects/main/thesis_projects/MSc/overview_MSc_thesis_projects.html)
-- [Research Projects](https://www.ewatercycle.org/projects/main/thesis_projects/Research/overview_research_projects.html)
-- [Tutorials](https://www.ewatercycle.org/projects/main/tutorials_examples/intro_tutorials_examples.html)
+- [workshops](https://www.ewatercycle.org/workshops/main/workshops/intro.html)
+- [Tutorials](https://www.ewatercycle.org/workshops/main/tutorials_examples/intro_tutorials_examples.html)
 - [References](https://www.ewatercycle.org/projects/main/references.html)
 
 Projects counter:
 - BSc projects: 6
-- MSc projects: 0
+- MSc projects: 1
 - PhD/PostDoc/Research projects: 1
 
 ## eWaterCycle
@@ -36,3 +34,7 @@ Typically, the eWaterCycle platform is deployed on a system that can be accessed
 This makes it possible for researchers to quickly run an experiment without the hassle of installing a model or creating suitable input data. 
 To learn more about the system setup, read our [System setup](https://ewatercycle.readthedocs.io/en/latest/system_setup.html) page.
 
+## Getting started
+
+If you want to use eWaterCycle for your own research, please reach out to the team via our GitHub page.
+Once you have an account look at the [getting-started](https://www.ewatercycle.org/getting-started/main/intro.html) page to get started.
